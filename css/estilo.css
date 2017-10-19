@@ -43,12 +43,25 @@ aside h5[title $= "small"] {
 }
 
 /*POR ALGUNA RAZON ESTO NO FUNCIONA Y NO SE PORQUÉ*/
-aside li[name = "fork"] {
-	list-­style-­image:  url(“https://goo.gl/y0yaro”);
+aside li[name=fork]{
+	list-style-image: url("https://goo.gl/y0yaro");
 }
 
+nav > *:hover, ul > *:hover, li > *:hover{
+	color: green;
+}
 
-/*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
+p.descripcion::first-letter {
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+ article img {
+	display: block;
+	margin: auto;
+	width: 15%;
+ }
+
 section#left {
 	float:left;
 	width:70%;
