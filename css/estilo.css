@@ -1,9 +1,55 @@
+* {
+	font-family: Verdana;
+}
 
+h1 {
+	color: blue;
+	text-align: center;
+}
 
+header#cabecera img {
+	width: 10%;
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.elemento-menu {
+	display: inline;
+	list-style-type: none;
+}
+
+#menu {
+	text-align: center;
+}
+
+#footer p {
+	font-style: italic;
+	text-align: center;
+}
+
+aside h3 + h4 {
+	font-style: italic;
+	color: green;
+}
+
+aside h5 ~ p {
+	font-size: 8pt;
+}
+
+aside h5[title $= "small"] {
+	text-decoration: underline;
+}
+
+/*POR ALGUNA RAZON ESTO NO FUNCIONA Y NO SE PORQUÉ*/
+aside li[name = "fork"] {
+	list-­style-­image:  url(“https://goo.gl/y0yaro”);
+}
 
 
 /*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
-/*section#left {
+section#left {
 	float:left;
 	width:70%;
 	
@@ -15,4 +61,4 @@ aside#right {
 
 footer#footer {
 	clear:both;
-}*/
+}
